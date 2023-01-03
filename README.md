@@ -49,5 +49,6 @@ $\begin{matrix}&{\dot{\mathrm{\Omega}}}_x=\frac{I_{yy}-I_{zz}}{I_{xx}}\mathrm{\O
 
 ## 更多资料
 
-- 一些数据处理的代码在[github]()上可以找到
+- 一些数据处理的代码在[github](https://github.com/weenming/TRE_simulation/COMSOL)上可以找到
+- 我的COMSOL实例在[github](https://github.com/weenming/TRE_simulation/COMSOL)上可以找到
 - 一个用COMSOL模拟TRE的[例子](https://www.comsol.com/blogs/why-do-tennis-rackets-tumble-the-dzhanibekov-effect-explained/)，我的COMSOL模拟参考了这个例子

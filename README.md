@@ -3,6 +3,7 @@
 指导老师：白翠琴
 ## 网球拍效应介绍
 TRE指刚体绕第二惯量主轴的不稳定旋转现象。刚体自由转动的动力学方程如下
+
 <img src="./images/eq1.png" width=220>
 
 在<img src="./images/eq2.png" width=200>且<img src="./images/eq3.png" width=100>的条件下可以观察到刚体除了绕z轴旋转还会翻转。典型的发生、不发生TRE时，z方向角速度关于时间的变化图像如下图所示：

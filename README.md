@@ -2,7 +2,9 @@
 
 ## 网球拍效应介绍
 TRE指刚体绕第二惯量主轴的不稳定旋转现象。刚体自由转动的动力学方程如下
+
 $\begin{matrix}&{\dot{\mathrm{\Omega}}}_x=\frac{I_{yy}-I_{zz}}{I_{xx}}\mathrm{\Omega}_y\mathrm{\Omega}_z\\&{\dot{\mathrm{\Omega}}}_y=\frac{I_{zz}-I_{xx}}{I_{yy}}\mathrm{\Omega}_z\mathrm{\Omega}_x\\&{\dot{\mathrm{\Omega}}}_z=\frac{I_{xx}-I_{yy}}{I_{zz}}\mathrm{\Omega}_x\mathrm{\Omega}_y\\\end{matrix}$
+
 在$I_{xx}<I_{zz}<I_{yy}$且$\Omega_{0z}\ll \omega_{0x}, \omega_{0y}$的条件下可以观察到刚体除了绕z轴旋转还会翻转。典型的发生、不发生TRE时，$\omega_z$关于时间的变化图像如下图所示：
 ![](./images/flip-stable_modes_omega.png)
 
@@ -38,7 +40,7 @@ $\begin{matrix}&{\dot{\mathrm{\Omega}}}_x=\frac{I_{yy}-I_{zz}}{I_{xx}}\mathrm{\O
 - 在`Multibody Dynamics`中设置初始条件，需要设置第二主轴的初始角速度远大于另两个轴
   - 在Rigid Domain中选择Initial Values为Locally Defined
   <img src="./images/initVal.png" width=400>
-  
+
   - 在下级菜单中设置初始条件
   <img src="./images/initVal2.png" width=200>
 - 开始模拟并在`Results`中查看结果，可以导出数据并进一步分析

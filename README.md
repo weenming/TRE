@@ -7,6 +7,7 @@ TRE指刚体绕第二惯量主轴的不稳定旋转现象。刚体自由转动�
 <img src="./images/eq1.png" width=180>
 
 在<img src="./images/eq2.png" width=200>且<img src="./images/eq3.png" width=100>的条件下可以观察到刚体除了绕z轴旋转还会翻转。典型的发生、不发生TRE时，z方向角速度关于时间的变化图像如下图所示：
+
 <img src="./images/flip-stable_modes_omega.png" width=400>
 
 ## COMSOL设置

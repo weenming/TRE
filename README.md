@@ -3,10 +3,9 @@
 指导老师：白翠琴
 ## 网球拍效应介绍
 TRE指刚体绕第二惯量主轴的不稳定旋转现象。刚体自由转动的动力学方程如下
+<img src="./images/eq1.png" width=220>
 
-$\begin{matrix}&{\dot{\mathrm{\Omega}}}_x=\frac{I_{yy}-I_{zz}}{I_{xx}}\mathrm{\Omega}_y\mathrm{\Omega}_z\\&{\dot{\mathrm{\Omega}}}_y=\frac{I_{zz}-I_{xx}}{I_{yy}}\mathrm{\Omega}_z\mathrm{\Omega}_x\\&{\dot{\mathrm{\Omega}}}_z=\frac{I_{xx}-I_{yy}}{I_{zz}}\mathrm{\Omega}_x\mathrm{\Omega}_y\\\end{matrix}$
-
-在$I_{xx}<I_{zz}<I_{yy}$且$\Omega_{0z}\ll \omega_{0x}, \omega_{0y}$的条件下可以观察到刚体除了绕z轴旋转还会翻转。典型的发生、不发生TRE时，$\omega_z$关于时间的变化图像如下图所示：
+在<img src="./images/eq2.png" width=200>且<img src="./images/eq3.png" width=100>的条件下可以观察到刚体除了绕z轴旋转还会翻转。典型的发生、不发生TRE时，z方向角速度关于时间的变化图像如下图所示：
 ![](./images/flip-stable_modes_omega.png)
 
 ## COMSOL设置

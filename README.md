@@ -1,5 +1,5 @@
 # 网球拍效应
-
+冯睿骐[^1]
 ## 网球拍效应介绍
 TRE指刚体绕第二惯量主轴的不稳定旋转现象。刚体自由转动的动力学方程如下
 
@@ -49,11 +49,13 @@ $\begin{matrix}&{\dot{\mathrm{\Omega}}}_x=\frac{I_{yy}-I_{zz}}{I_{xx}}\mathrm{\O
 - 下载Phyphox App
 - 选择角速度记录
 - 扔手机，使得初始角速度基本沿第二主轴
-- 接住手机 **(重要!)**
+- 接住手机 **(从而您的手机将会有更小的概率损坏)**
 - 导出数据并分析
 
 ## 更多资料
 
-- 一些数据处理的代码在[github](https://github.com/weenming/TRE_simulation/COMSOL)上可以找到
-- 我的COMSOL实例在[github](https://github.com/weenming/TRE_simulation/COMSOL)上可以找到
-- 一个用COMSOL模拟TRE的[例子](https://www.comsol.com/blogs/why-do-tennis-rackets-tumble-the-dzhanibekov-effect-explained/)，我的COMSOL模拟参考了这个例子
+- 数据处理的代码在[github](https://github.com/weenming/TRE_simulation)上可以找到
+- 我的COMSOL实例在[github](https://github.com/weenming/TRE_simulation/tree/master/COMSOL)上可以找到
+- 一个用COMSOL模拟TRE的[示例](https://www.comsol.com/blogs/why-do-tennis-rackets-tumble-the-dzhanibekov-effect-explained/)，我的COMSOL模拟参考了这个示例
+
+[^1]: 由于作者水平有限，本文难免存在疏漏，请读者不吝赐教。邮箱：rfeng20@fudan.edu.cn

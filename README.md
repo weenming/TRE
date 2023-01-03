@@ -4,10 +4,10 @@
 ## 网球拍效应介绍
 TRE指刚体绕第二惯量主轴的不稳定旋转现象。刚体自由转动的动力学方程如下
 
-<img src="./images/eq1.png" width=220>
+<img src="./images/eq1.png" width=180>
 
 在<img src="./images/eq2.png" width=200>且<img src="./images/eq3.png" width=100>的条件下可以观察到刚体除了绕z轴旋转还会翻转。典型的发生、不发生TRE时，z方向角速度关于时间的变化图像如下图所示：
-![](./images/flip-stable_modes_omega.png)
+<img src="./images/flip-stable_modes_omega.png" width=400>
 
 ## COMSOL设置
 事实上，刚体的动力学方程是3个常微分方程构成的方程组。解ODE有很多数值方法，而且实现起来也不难。但总之我们先来使用COMSOL。本文档中使用的COMSOL版本是5.6。

@@ -1,8 +1,8 @@
-# 网球拍效应
-冯睿骐[^1]
-指导老师：白翠琴
-## 网球拍效应介绍
-TRE指刚体绕第二惯量主轴的不稳定旋转现象。刚体自由转动的动力学方程如下
+# Tennis Racket Effect
+Ruiqi Feng[^1], Cuiqin Bai
+
+## Introduction
+TRE is the phenomenon where a rigid body's *unstable* rotation around its second inertial axis. The dynamics equation of a free rigid body is
 
 <!-- $\begin{matrix}&{\dot{\mathrm{\Omega}}}_x=\frac{I_{yy}-I_{zz}}{I_{xx}}\mathrm{\Omega}_y\mathrm{\Omega}_z\\&{\dot{\mathrm{\Omega}}}_y=\frac{I_{zz}-I_{xx}}{I_{yy}}\mathrm{\Omega}_z\mathrm{\Omega}_x\\&{\dot{\mathrm{\Omega}}}_z=\frac{I_{xx}-I_{yy}}{I_{zz}}\mathrm{\Omega}_x\mathrm{\Omega}_y\\\end{matrix}$ --> <img style="transform: translateY(0.1em); background: white;" src="image\xWhdh2brU0.svg"> 
 
@@ -11,8 +11,8 @@ TRE指刚体绕第二惯量主轴的不稳定旋转现象。刚体自由转动�
 
 <img src="./image/flip-stable_modes_omega.png" width=400>
 
-## 使用COMSOL进行数值模拟
-事实上，刚体的动力学方程是3个常微分方程构成的方程组。解ODE有很多数值方法，而且实现起来也不难。但为了增添一些麻烦来显示工作量, 我们使用COMSOL。本文档中使用的COMSOL版本是5.6。
+## Numerical simulation using COMSOL
+Essentially the free rotation of a rigid body can be described using a system of 3 ODEs as is shown above. There are mature numerical methods which are not hard to implement. But we are using COMSOL anyways. The version of COMSOL used in this tutorial is 5.6.
 
 #### 物理场设置
 - 打开COMSOL，新建项目，选择 `Model Wizard`，接着选择`3D`，因为我们的模型是3维的。

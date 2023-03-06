@@ -48,14 +48,14 @@ Essentially the free rotation of a rigid body can be described using a system of
   <img src="./image/initVal2.png" width=200>
 - 开始模拟并在`Results`中查看结果，可以导出数据并进一步分析
 
-## 使用Phyphox进行实验
+## Experiment using Phyphox
 - 下载Phyphox App
 - 选择角速度记录
 - 扔手机，使得初始角速度基本沿第二主轴
 - 接住手机, 从而您的手机将会有更小的概率损坏
 - 导出数据并分析
 
-## 更多资料
+## Additional Materials
 
 - 数据处理的代码在[github](https://github.com/weenming/TRE_simulation)上可以找到
 - 我的COMSOL实例在[github](https://github.com/weenming/TRE_simulation/tree/master/COMSOL)上可以找到

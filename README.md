@@ -61,4 +61,4 @@ Essentially the free rotation of a rigid body can be described using a system of
 - 我的COMSOL实例在[github](https://github.com/weenming/TRE_simulation/tree/master/COMSOL)上可以找到
 - 一个用COMSOL模拟TRE的[示例](https://www.comsol.com/blogs/why-do-tennis-rackets-tumble-the-dzhanibekov-effect-explained/)，我的COMSOL模拟参考了这个示例
 
-[^1]: 由于作者水平有限，本文难免存在疏漏，请读者不吝赐教。邮箱：rfeng20@fudan.edu.cn
+[^1]: Please contact me if you would like to lweave comments or spotted mistakes here. Email: rfeng20@fudan.edu.cn

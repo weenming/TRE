@@ -53,7 +53,7 @@ Essentially the free rotation of a rigid body can be described using a system of
 - Download `Phyphox` App on your smartphone
 - Select to record the angular velocity
 - Throw your smartphone in the air, trying your best to make it rotate around its second inertia axis.
-- *Catch your phone to prevent extra expenses in case it is damaged.*
+- *Catch your phone to avoid extra reparation expenses.*
 - Export the data and analyze it.
 
 ## Additional Materials
